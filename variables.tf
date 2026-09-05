@@ -6,12 +6,12 @@ variable "environment" {
 variable "prefix" {
   type        = string
   description = "(Required) Prefix to use for all resources in this module."
+  default     = "twgitops"
 }
 
 variable "region" {
   type        = string
   description = "(Optional) AWS Region to deploy in. Defaults to us-east-1."
-  default     = "eu-west-1"
 }
 
 variable "vpc_address_range" {
