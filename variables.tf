@@ -6,7 +6,7 @@ variable "environment" {
 variable "prefix" {
   type        = string
   description = "(Required) Prefix to use for all resources in this module."
-  default     = "tacowagongitops"
+  default     = "twgitops"
 }
 
 variable "region" {
